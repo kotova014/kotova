@@ -11,7 +11,7 @@ include_once("kotova/Log.php");
 $a = 1;
 $b = 9;
 $c = 1;
-
+//эту строчку мы добавили
 try {
 	$solver = new kotova\Quadratic($a, $b, $c);
 	$roots = $solver->ur2($a, $b, $c);
